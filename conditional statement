@@ -1,0 +1,76 @@
+1)use logical operator to find whethet the age is between 10and 20
+
+let a = prompt("Enter your age");
+a = parseInt(a);
+
+if (a >= 10 && a <= 20) {
+  console.log("Your age is between 10 and 20.");
+} else {
+  console.log("Your age is not between 10 and 20.");
+}
+
+2) Demonstrate the use of switch case statment in java script
+
+let a = prompt("Enter your age");
+a = parseInt(a);
+
+switch (a) {
+  case 12:
+    console.log("Your age is 12");
+    break;
+
+  case 13:
+    console.log("Your age is 13");
+    break;
+
+  case 14:
+    console.log("Your age is 14");
+    break;
+
+  case 15:
+    console.log("Your age is 15");
+    break;
+
+  case 16:
+    console.log("Your age is 16");
+    break;
+
+  default:
+    console.log("Age is invalid");
+}
+
+3) number is divisible by 2 and 3 ?
+
+let a = prompt("Enter your age");
+a = parseInt(a);
+if (a%2==0 && a%3==0){
+console.log("number is divisible")
+}
+else{
+console.log("not divisible")
+}
+
+4) number is divisible by either 2 or 3 ?
+
+let a =prompt("enter a number")
+a = Number.parseInt(a);
+if(a%2==0){
+console.log("By 2")
+}
+else if (a%3==0){
+console.log("By 3")
+}
+else {
+console.log("invalid")
+}
+
+
+5) to check whether the age is greater then 18 so he/she can drive " using ternary operator" ?
+
+let a = prompt("Enter your age");
+a = parseInt(a);
+
+let age = a >=18 ? "you can drive" : "you cannot drive"
+
+//let age = (a>=18 && a<=80) ? "you can drive" : "you cannot drive"
+console.log(age)
